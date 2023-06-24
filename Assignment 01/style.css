@@ -1,0 +1,173 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+.header {
+    background-color: rgb(5, 7, 7);
+    color: white;
+    height: 100px;
+    line-height: 30px;
+}
+
+.header .logo {
+    float: left;
+}
+
+.header .logo img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.header .navbar ul li {
+    font-size: 30px;
+    list-style: none;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 30px;
+
+}
+
+.header .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 400px;
+}
+
+.main-container {
+    display: grid;
+}
+
+.web-body {
+    display: grid;
+    width: 600px;
+    grid-template-columns: repeat(3, 1fr);
+    box-sizing: border-box;
+}
+
+.left-side {
+    width: 520px;
+    height: 859px;
+    box-sizing: border-box;
+    background: rgb(46, 158, 128);
+
+}
+
+.right-side {
+    width: 1400px;
+    background: #fbfbfbec;
+    box-sizing: border-box;
+
+}
+
+.left-side img {
+    margin-top: 70px;
+    height: 350px;
+    width: 300px;
+    border-radius: 30px;
+    border: 8px solid rgb(250, 246, 246);
+    box-sizing: border-box;
+
+}
+
+.left-side .name1 {
+    padding-left: 170px;
+    font-size: 34px;
+
+}
+
+.left-side .name2 {
+    padding-left: 190px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.contact{
+    font-size: 30px;
+    padding-left: 25px;
+}
+
+.contact1 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 40px;
+}
+.contact2 {
+    font-size: 25px;
+}
+
+.name3 {
+    font-size: 100px;
+    padding-left: 850px;
+}
+
+.name4 {
+    font-size: 50px;
+    margin-bottom: 130px;
+    padding-left: 1050px;
+}
+
+.right-side .profile-us {
+    font-size: 30px;
+    margin-bottom: 10px;
+   
+}
+
+.right-side .profile-us img {
+    width: 30px;
+    height: 30px;
+    padding-left: 40px;
+}
+.right-side .text{
+    padding-left: 40px;
+}
+
+.right-side .text1 {
+    border: 2px solid ;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+    line-height: 30px;
+    font-size: 16px;
+
+}
+.text1 img{
+    width: 20px;
+    height: 13px;
+}
+
+.text2 {
+    font-size: 30px;
+    padding-left: 40px;
+
+}
+.text2 img{
+    height: 30px;
+    width: 40px;
+}
+.text3{
+    padding-left: 40px;
+    font-size: 20px;
+}
+.text4{
+    padding-left: 1000px;
+    
+}
+.text5{
+    padding-left: 40px;
+    font-size: 20px;
+}
+.text6{
+    font-size: 20px;
+    padding-left: 40px;
+}
+.text6 img{
+    width: 20px;
+    height: 20px;
+}
+    
